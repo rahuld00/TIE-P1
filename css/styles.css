@@ -27,7 +27,7 @@ p {
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: normal;
@@ -125,7 +125,7 @@ hr {
   margin: auto;
 }
 .intro {
-  width: 60%;
+  width: 70%;
   font-size: large;
   margin: auto;
 }
@@ -160,6 +160,23 @@ a:hover {
    text-align: center;
    margin-top: 40px;
 }
+
+.btn1{
+  -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #66BFBF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   padding: 20px;
+   background-color: #EAF6F6;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 40px;
+}
+
 .btn2 {
   display: inline-block;
   font-weight: 400;
@@ -177,4 +194,42 @@ a:hover {
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #66BFBF;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: thin solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #66BFBF;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #66BFBF;
 }
